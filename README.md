@@ -1,8 +1,6 @@
 - 👋 Hi, I’m @vamsi-janjanam
-- 👀 I’m interested in Python and Data Engineering
-- 👨‍🎓 I’m a graduate in Computer Science and learning DSA
-- 💞️ I’m looking to collaborate on Python-related projects
-- 💻 I'm actively looking for Data Engineer positions
+- 👀 I’m interested in AI
+- 👨‍🎓 I’m a graduate in Computer Science
 - 📫 You can reach me at vamsijanjanam@gmail.com
 
 <!---
