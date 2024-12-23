@@ -10,54 +10,76 @@
             margin: 0;
             padding: 0;
             line-height: 1.6;
-            color: #444;
-            background-color: #f9f9f9;
+            color: #333;
+            background-color: #f1f5f9;
         }
         header {
-            background: linear-gradient(to right, #4a90e2, #50c9c3);
+            background: linear-gradient(to right, #0072ff, #00c6ff);
             color: #fff;
-            padding: 20px 0;
+            padding: 50px 0;
             text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.4em;
+            opacity: 0.9;
         }
         nav {
             display: flex;
             justify-content: center;
-            background: #333;
-            padding: 10px 0;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            background: #1e293b;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         nav a {
-            color: #fff;
+            color: #e2e8f0;
             text-decoration: none;
-            margin: 0 15px;
+            margin: 0 20px;
             font-weight: bold;
+            transition: color 0.3s;
         }
         nav a:hover {
-            text-decoration: underline;
+            color: #00c6ff;
         }
         section {
-            padding: 30px;
+            padding: 40px 20px;
             max-width: 1000px;
             margin: auto;
             background: #fff;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            border-radius: 8px;
         }
         footer {
-            background: #333;
-            color: #fff;
+            background: #1e293b;
+            color: #e2e8f0;
             text-align: center;
-            padding: 15px 20px;
+            padding: 20px;
             margin-top: 20px;
+            font-size: 0.9em;
         }
         .project {
-            border: 1px solid #ddd;
+            border: 1px solid #e2e8f0;
             padding: 20px;
-            margin-bottom: 15px;
-            border-radius: 5px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
         }
         .project h3 {
-            color: #4a90e2;
+            color: #0072ff;
+            margin-top: 0;
         }
         .project p {
             margin: 10px 0 0;
@@ -67,16 +89,23 @@
             padding: 0;
         }
         ul li {
-            background: #f4f4f4;
+            background: #e5f6ff;
             margin: 5px 0;
             padding: 10px;
-            border-left: 5px solid #4a90e2;
+            border-left: 5px solid #0072ff;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        ul li:hover {
+            background: #d1f0ff;
         }
         a {
-            color: #4a90e2;
+            color: #0072ff;
+            text-decoration: none;
+            transition: color 0.3s;
         }
         a:hover {
-            color: #50c9c3;
+            color: #00c6ff;
         }
     </style>
 </head>
@@ -121,7 +150,7 @@
     <section id="contact">
         <h2>Contact</h2>
         <p>Email: <a href="mailto:vamsijanjanam@gmail.com">vamsijanjanam@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com">LinkedIn Profile</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/vkjanjanam/">Vamsi Krishna Janjanam</a></p>
         <p>Phone: +1 (704) 345-1713</p>
     </section>
     <footer>
