@@ -4,7 +4,7 @@
 
 # Vamsi Krishna Janjanam
 
-### 🚀 Data Engineer | Cloud Innovator | Data Wizard | AI Enthusiast
+### 🚀 Data Engineer | AI Enthusiast
 
 Hi there! I'm Vamsi, a data engineer passionate about building scalable cloud solutions and streamlining data pipelines. With over 5 years of experience, I specialize in AWS, PySpark, and Snowflake, driving impactful data strategies for dynamic organizations.
 
